@@ -1,0 +1,22 @@
+{
+  "name": "preparation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/blog-post.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achalbhute/Preparation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achalbhute/Preparation/issues"
+  },
+  "homepage": "https://github.com/achalbhute/Preparation#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
