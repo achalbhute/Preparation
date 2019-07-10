@@ -3,10 +3,12 @@ let db = require('./db/blog_db');
 let bodyParser = require('body-parser');
 let mid = require('./middleware/cons-mid');
 let Blog = require('./models/blog');
+let router = require('./routes/router');
 
 const app = express();
 app.use(bodyParser.urlencoded({extended : false}));
 app.use(bodyParser.json());
+app.use(router);
 // app.use(mid);
 
 const PORT = 8000 ;
